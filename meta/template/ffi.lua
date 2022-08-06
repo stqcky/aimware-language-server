@@ -1,4 +1,3 @@
----#if not JIT then DISABLE() end
 ---@meta
 
 ---@class ffi.namespace*: table
@@ -13,7 +12,6 @@ local cb
 ---@class ffi.VLA*:   userdata
 ---@class ffi.VLS*:   userdata
 
----@version JIT
 ---@class ffilib
 ---@field C    ffi.namespace*
 ---@field os   string
