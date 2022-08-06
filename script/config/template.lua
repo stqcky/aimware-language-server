@@ -182,11 +182,7 @@ end, function (self, ...)
 end)
 
 local template = {
-    ['Lua.runtime.version']                 = Type.String >> 'Lua 5.4' << {
-                                                'Lua 5.1',
-                                                'Lua 5.2',
-                                                'Lua 5.3',
-                                                'Lua 5.4',
+    ['Lua.runtime.version']                 = Type.String >> 'LuaJIT' << {
                                                 'LuaJIT',
                                             },
     ['Lua.runtime.path']                    = Type.Array(Type.String) >> {
