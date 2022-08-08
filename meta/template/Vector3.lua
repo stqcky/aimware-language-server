@@ -4,6 +4,13 @@
 ---@field x number
 ---@field y number
 ---@field z number
+---@operator unm: Vector3
+---@operator add: Vector3
+---@operator sub: Vector3
+---@operator mul: Vector3
+---@operator div: Vector3
+---@operator idiv: Vector3
+---@operator pow: Vector3
 Vector3 = {}
 
 ---Get length of the vector.

@@ -8,6 +8,13 @@
 ---@field pitch number
 ---@field yaw number
 ---@field roll number
+---@operator unm: EulerAngles
+---@operator add: EulerAngles
+---@operator sub: EulerAngles
+---@operator mul: EulerAngles
+---@operator div: EulerAngles
+---@operator idiv: EulerAngles
+---@operator pow: EulerAngles
 EulerAngles = {}
 
 ---Reset the angles to 0.
