@@ -27,7 +27,7 @@ function gui.Checkbox(parent, varname, name, value) end
 ---@param a integer
 ---@return GuiObject
 ---@nodiscard
-function gui.Colorpicker(parent, varname, name, r, g, b, a) end
+function gui.ColorPicker(parent, varname, name, r, g, b, a) end
 
 ---@param parent GuiObject
 ---@param varname string
