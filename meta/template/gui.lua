@@ -63,7 +63,7 @@ function gui.Custom(parent, varname, x, y, w, h, update, write, read) end
 function gui.Editbox(parent, varname, name) end
 
 ---@param varname string
----@return string|number
+---@return any
 ---@nodiscard
 function gui.GetValue(varname) end
 
