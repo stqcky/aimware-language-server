@@ -32,7 +32,7 @@ function gui.ColorPicker(parent, varname, name, r, g, b, a) end
 ---@param parent GuiObject
 ---@param varname string
 ---@param name string
----@vararg string
+---@param ... string
 ---@return GuiObject
 ---@nodiscard
 function gui.Combobox(parent, varname, name, ...) end
@@ -89,7 +89,7 @@ function gui.Keybox(parent, varname, name, key) end
 ---@param parent GuiObject
 ---@param varname string
 ---@param height integer
----@vararg string
+---@param ... string
 ---@return GuiObject
 ---@nodiscard
 function gui.Listbox(parent, varname, height, ...) end
@@ -101,7 +101,7 @@ function gui.Listbox(parent, varname, height, ...) end
 function gui.Multibox(parent, name) end
 
 ---finds and creates new reference to ui object. should be used only once.
----@vararg string
+---@param ... string
 ---@return GuiObject
 ---@nodiscard
 function gui.Reference(...) end

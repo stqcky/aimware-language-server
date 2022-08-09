@@ -17,7 +17,7 @@ function GuiObject:SetName(name) end
 function GuiObject:SetValue(value) end
 
 ---Return value of the object.
----@return any
+---@return any, any, any, any
 ---@nodiscard
 function GuiObject:GetValue() end
 
@@ -45,7 +45,7 @@ function GuiObject:SetOpenKey(key) end
 function GuiObject:SetDescription(text) end
 
 ---Set options for Combobox or Listbox.
----@vararg string
+---@param ... string
 function GuiObject:SetOptions(...) end
 
 ---Set the X position of the object. Relative to parent.
@@ -73,7 +73,7 @@ function GuiObject:SetInvisible(invisible) end
 function GuiObject:SetDisabled(disabled) end
 
 ---Checks for only the child objects.
----@vararg string
+---@param ... string
 ---@return GuiObject
 function GuiObject:Reference(...) end
 

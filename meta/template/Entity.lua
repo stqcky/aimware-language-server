@@ -87,7 +87,7 @@ function Entity:SetProp(name, value) end
 
 ---Get the value of a prop as float.
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
----@vararg string
+---@param ... string
 ---@return number
 ---@nodiscard
 function Entity:GetPropFloat(...) end
@@ -95,7 +95,7 @@ function Entity:GetPropFloat(...) end
 ---Get the value of a prop as int.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
----@vararg string
+---@param ... string
 ---@return integer 
 ---@nodiscard
 function Entity:GetPropInt(...) end
@@ -103,7 +103,7 @@ function Entity:GetPropInt(...) end
 ---Get the value of a prop as bool.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
----@vararg string
+---@param ... string
 ---@return boolean
 ---@nodiscard
 function Entity:GetPropBool(...) end
@@ -111,7 +111,7 @@ function Entity:GetPropBool(...) end
 ---Get the value of a prop as string.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
----@vararg string
+---@param ... string
 ---@return string
 ---@nodiscard
 function Entity:GetPropString(...) end
@@ -119,7 +119,7 @@ function Entity:GetPropString(...) end
 ---Get the value of a prop as vector.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
----@vararg string
+---@param ... string
 ---@return Vector3
 ---@nodiscard
 function Entity:GetPropVector(...) end
@@ -127,7 +127,7 @@ function Entity:GetPropVector(...) end
 ---Get the value of a prop as an entity.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
----@vararg string
+---@param ... string
 ---@return Entity
 ---@nodiscard
 function Entity:GetPropEntity(...) end
@@ -136,35 +136,35 @@ function Entity:GetPropEntity(...) end
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
 ---@param float number
----@vararg string
+---@param ... string
 function Entity:SetPropFloat(float, ...) end
 
 ---Set the value of a prop as int object.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
 ---@param int integer
----@vararg string
+---@param ... string
 function Entity:SetPropInt(int, ...) end
 
 ---Set the value of a prop as bool object.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
 ---@param bool boolean
----@vararg string
+---@param ... string
 function Entity:SetPropBool(bool, ...) end
 
 ---Set the value of a prop as vector object.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
 ---@param vec Vector3
----@vararg string
+---@param ... string
 function Entity:SetPropVector(vec, ...) end
 
 ---Set the value of a prop as entity object.
 ---
 ---[Prop List](https://docs.aimware.net/asset/extra/csgorecvprops.txt)
 ---@param ent Entity
----@vararg string
+---@param ... string
 function Entity:SetPropEntity(ent, ...) end
 
 ---Get the hitbox position of the entity.
